@@ -1,0 +1,2 @@
+AmericanWhitePelican.bin -> 0DE91068BC739B686D13294F4C4CFA68.bin
+AmericanWhitePelican_BaseColor.png -> 70B837CEB9FA7C429F8BB18F2204C1B9.png
