@@ -152,26 +152,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 1974707574448314, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1899988262319618, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1127715635918962, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1433269415693212, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4265584693353834, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
   m_IsPrefabAsset: 0
@@ -363,10 +343,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18ebbae5f6b50f4fa80c1f5207f4d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_enemy: {fileID: 1387808249877580, guid: 967ef38fc40eba54d85fd3b8058e2001, type: 2}
+  m_enemy: {fileID: 1433269415693212, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
   m_spawnRate: 1.5
-  m_max: 0.5
-  m_min: -0.5
+  m_max: 10
+  m_min: -10
 --- !u!1001 &363219423
 Prefab:
   m_ObjectHideFlags: 0

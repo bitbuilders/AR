@@ -26,8 +26,9 @@ public class Spawner : MonoBehaviour
             m_time = 0.0f;
             Vector3 rand = new Vector3(Random.Range(m_min, m_max), 0.0f, Random.Range(m_min, m_max));
             Vector3 pos = rand;
-            pos += m_camera.transform.position;
-            pos.y = 0.0f;
+            Vector3 camPos = m_camera.transform.position;
+            camPos.y = 0.0f;
+            pos += camPos;
             Instantiate(m_enemy, pos, Quaternion.identity, transform);
         }
     }
