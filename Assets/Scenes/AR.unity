@@ -344,9 +344,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_enemy: {fileID: 1433269415693212, guid: 37ded3bcdeafd124b8c92d725aac1cfb, type: 2}
-  m_spawnRate: 1.5
-  m_max: 10
-  m_min: -10
+  m_spawnRate: 0.5
+  m_max: 1
+  m_min: -1
 --- !u!1001 &363219423
 Prefab:
   m_ObjectHideFlags: 0
