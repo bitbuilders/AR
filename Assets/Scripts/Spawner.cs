@@ -6,8 +6,8 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] GameObject m_enemy = null;
     [SerializeField] [Range(0.0f, 60.0f)] float m_spawnRate = 1.5f;
-    [SerializeField] [Range(0.0f, 10.0f)] float m_max;
-    [SerializeField] [Range(0.0f, -10.0f)] float m_min;
+    [SerializeField] [Range(0.0f, 100.0f)] float m_max;
+    [SerializeField] [Range(0.0f, -100.0f)] float m_min;
 
     Camera m_camera;
     float m_time = 0.0f;
